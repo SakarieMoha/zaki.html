@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing:border-box;
+            }
+          body{ 
+              font-family: Arial, Helvetica, sans-serif;
+              padding: 10px;
+              background: #f1f1f1;
+
+            }
+            .header{
+                padding:30px;
+                text-align: center;
+                background: rgb(104, 110, 199);
+            }
+            .header{
+                font-size: 50px;
+            }
+            .topnav{
+                overflow: hidden;
+                background-color: rgb(185, 185, 26);
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .topnav a{
+                float: left;
+                display: black;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .topnav, a:hover {
+                background-color: crimson;
+                color: grey;
+            }
+            .leftcolumn{
+                float: left;
+                width: 75%;
+            }
+            .rightcolumn{
+                float: left;
+                width: 25%;
+                background-color: #f1f1f1;
+                padding-left: 20px;
+            }
+            .fakeimg{
+                background-color: #aaa;
+                width: 100%;
+                padding: 20px;
+                margin: 1px;
+            }
+            .card{
+                background-color: white;
+                padding: 20px;
+                margin-top: 20px;
+            }
+            .row:after{
+                content:"";
+                display:table;
+                clear:both
+
+            }
+            .footer{
+                padding: 20px;
+                text-align: center;
+                background: #ddd;
+                margin-top: 20px;
+            }
+            @media screen and (max-width: 800px){
+                .leftcolumn,:rightcolumn{
+                    width: 100%;
+                    padding:0;
+                }
+            }
+            @media screen and (max-width: 400px){
+                .topnav a{
+                    float: none;
+                    width: 100%;
+                }
+            }
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My website</h1>
+        <p>This is my first website
+        </p>
+    </div>
+    <div class="topnav ">
+            <a href="#">home</a>
+            <a href="#">contact</a>
+            <a href="#">services</a>
+            <a href="#">costomer</a>
+    </div>
+    <div class="row">
+<div class="leftcolumn">
+<div class="card">
+    <h2>TITLES HEADING</h2>
+    <H5>Title describtion, DEC,7,2017</H5>
+    <div class="fakeimg"style="height:200px;"></div>
+    <p>Diamond Graphics</p>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quo iusto, quibusdam itaque perferendis accusamus. Non nesciunt laudantium voluptas quis fugiat recusandae, tempora dicta natus aliquid libero eaque! Quis, rerum.Commodi rem debitis officiis nobis enim qui pariatur similique molestias iusto. Ea ad veritatis obcaecati quas impedit aspernatur, voluptas dignissimos amet hic, earum odit alias! Iste nihil voluptatum sunt quibusdam?..
+    </P>
+.   
+    </div>
+    <div class="card">
+        <h2>PRINTING COMPANY</h2>
+        <H5>Title describtion, DEC,7,2017</H5>
+        <div class="fakeimg"style="height:200px;"></div>
+        <p>Diamond Graphics</p>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quo iusto, quibusdam itaque perferendis accusamus. Non nesciunt laudantium voluptas quis fugiat recusandae, tempora dicta natus aliquid libero eaque! Quis, rerum.Commodi rem debitis officiis nobis enim qui pariatur similique molestias iusto. Ea ad veritatis obcaecati quas impedit aspernatur, voluptas dignissimos amet hic, earum odit alias! Iste nihil voluptatum sunt quibusdam?..
+        </P>
+        </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2> A bout me</h2>
+                <diV class="fakeimg"style="height:100px;">Image </diV>
+                <p> some text about me in copla qui officia deserunt moug dahdst</p>
+        
+            </div>
+            <diV class="card">
+                <h3>popular post</h3>
+                <div class="fakeimge"><p>image</p></div>
+                <div class="fakeimge"><p>image</p></div>
+                <div class="fakeimge"><p>image</p></div>
+            </diV>
+            <div class="card">
+                <h3>follow me</h3>
+                |<p> some text about me in copla qui officia deserunt moug dahdst</p>
+
+
+            </div>
+            </div>
+            </div>
+            <div class="footer">
+                <h2>&copy footer</h2>
+
+
+            </div>
+</body>
+</html>
